@@ -11,46 +11,46 @@ Leading enterprise-scale multi-agent AI initiatives. Setting architectural stand
 ### Strategic Architecture
 - **Agentic Systems Governance**: Designing enterprise governance frameworks for multi-agent deployments (compliance, observability, cost optimization)
 - **Cloud-Native Strategy**: Multi-cloud architecture patterns; serverless-first design for operational efficiency and cost discipline
-- **Security Architecture**: Enterprise-grade standards (OIDC, policy-as-code, PII handling, least-privilege); no long-lived credentials
+- **Security Architecture**: Enterprise-grade standards (OIDC, policy-as-code, PII handling, least-privilege); eliminating long-lived credentials
 
 ### Reference Implementations
-Building and open-sourcing reference architectures across 8 industries to establish best practices:
-- **Healthcare** (LangGraph): HIPAA-aware clinical workflows with multi-agent HITL
-- **Financial Services** (MS Agent Framework): Compliance-first equity research with code execution sandboxes
-- **DevTools** (Claude Agent SDK): Autonomous engineering teams with self-reflection and long-horizon planning
-- **Manufacturing/Logistics** (CrewAI): Real-time supply chain orchestration with edge inference
-- **Legal/Compliance** (LlamaIndex): Contract analysis at scale with audit-grade reasoning
-- **EdTech** (Letta): Long-term learner modeling and adaptive instruction
-- **Retail** (CrewAI): Omnichannel CX agents with live catalog integration
-- **Energy** (LangGraph): Grid optimization and demand response orchestration
+Building and open-sourcing reference architectures across 8 industries to establish industry best practices:
+- **Healthcare** (LangGraph): HIPAA-aware clinical workflows with multi-agent human-in-the-loop processes
+- **Financial Services** (MS Agent Framework): Compliance-first equity research with isolated code execution
+- **DevTools** (Claude Agent SDK): Autonomous software engineering teams with self-reflection and multi-step planning
+- **Manufacturing/Logistics** (CrewAI): Real-time supply chain orchestration with edge-based inference
+- **Legal/Compliance** (LlamaIndex): Contract analysis at enterprise scale with structured reasoning
+- **EdTech** (Letta): Long-term student modeling and personalized instruction planning
+- **Retail** (CrewAI): Omnichannel customer experience with integrated catalog management
+- **Energy** (LangGraph): Grid optimization and demand response coordination
 
 ---
 
 ## Technical Achievements
 
 ### Enterprise-Grade Standards
-✅ **Zero Architectural Debt** — Every project includes:
-- Formal Architecture Decision Records (ADRs) for strategic choices
+✅ **Architectural Excellence** — Every project includes:
+- Formal Architecture Decision Records (ADRs) for strategic design choices
 - Automated compliance scanning (gitleaks, SAST, DAST)
-- Policy-as-code (OPA/Rego) for PII redaction, data retention, audit compliance
-- Infrastructure-as-Code (Terraform ≥1.9) with multi-environment parity
+- Policy-as-code enforcement (OPA/Rego) for data handling, retention, and audit compliance
+- Infrastructure-as-Code (Terraform ≥1.9) with multi-environment consistency
 
-✅ **Cost Leadership** — Serverless-first methodology:
-- Optimized Bedrock token usage and managed services (Lambda, Step Functions, DynamoDB)
-- Per-test-cycle cost: $1–6 (production-grade cost tracking per agent invocation)
-- Automated billing analysis and cost optimization workflows
+✅ **Cost Optimization** — Serverless-first methodology:
+- Optimized token usage and managed service integration (Lambda, Step Functions, DynamoDB)
+- Per-invocation cost tracking and analysis ($1–6 per test cycle)
+- Automated optimization workflows with billing integration
 
-✅ **Observability Excellence** — Enterprise observability stack:
-- Structured logging → CloudWatch/OpenSearch
-- Real-time cost tracking (Bedrock usage events)
-- Agentic RAG self-correction and evaluation loops
-- Simulation frameworks for stress testing
+✅ **Observability Excellence** — Enterprise observability architecture:
+- Structured logging with CloudWatch/OpenSearch
+- Real-time cost and usage tracking
+- Agentic loop evaluation and self-correction metrics
+- Performance simulation and load testing frameworks
 
-✅ **Security Leadership** — No compromises:
-- GitHub OIDC → AWS STS (eliminated long-lived credentials)
-- Pre-commit enforcement (gitleaks, dependency scanning, linting, Terraform validation)
-- CODEOWNERS-driven review process
-- Automated dependabot security updates
+✅ **Security Leadership** — Production-grade security:
+- OIDC-based authentication (GitHub OIDC → AWS STS)
+- Pre-commit enforcement (gitleaks, dependency scanning, linting)
+- CODEOWNERS-driven access control
+- Automated security updates and vulnerability management
 
 ---
 
@@ -60,30 +60,29 @@ Building and open-sourcing reference architectures across 8 industries to establ
 |-----------|----------|
 | **Industries** | Healthcare, Finance, DevTools, Logistics, Legal, EdTech, Retail, Energy |
 | **Frameworks** | LangGraph, Claude SDK, CrewAI, MS Agent Framework, LlamaIndex, Letta |
-| **Agentic Concepts** | Multi-agent orchestration, RAG, agentic RAG, HITL, long-horizon planning, long-term memory, streaming, code execution, computer use, voice, plan-and-execute |
-| **LLM Coverage** | Frontier (Claude Sonnet/Opus), mid-tier open-source (Llama 4, Mistral), specialized (Qwen Coder, medical embeddings) |
-| **Deployment Models** | Serverless (Lambda), containerized (ECS Fargate), edge (IoT Core), SaaS (Bedrock AgentCore) |
-| **Cloud Platforms** | AWS Bedrock + Lambda, Azure OpenAI + Functions, GCP Vertex AI |
-
+| **Agentic Concepts** | Multi-agent orchestration, RAG, agentic RAG, HITL, long-horizon planning, long-term memory, streaming, code execution, autonomous browsing, voice, plan-and-execute |
+| **LLM Coverage** | Frontier (Claude Sonnet/Opus), open-source mid-tier (Llama 4, Mistral), specialized models (Qwen Coder, domain embeddings) |
+| **Deployment Models** | Serverless (Lambda), containerized (ECS Fargate), edge (IoT Core), managed platforms (Bedrock AgentCore) |
+| **Cloud Platforms** | AWS (Bedrock, Lambda, Step Functions), Azure (OpenAI, Functions), GCP (Vertex AI) |
 
 ---
 
 ## Strategic Initiatives
 
 ### Thought Leadership
-- Publishing architecture patterns and decision frameworks as open-source reference implementations
-- Contributing to industry standards for agentic AI governance (observability, compliance, cost optimization)
-- Mentoring engineering teams on enterprise-scale agent design and production readiness
+- Publishing architecture patterns and decision frameworks as reference implementations
+- Contributing to industry standards for agentic AI governance
+- Mentoring engineering teams on enterprise-scale agent design and deployment
 
 ### Industry Positioning
-- Building the case for agentic AI across Kyndryl's enterprise customer base
-- Establishing architectural playbooks and COEs (Centers of Excellence) for multi-agent orchestration
-- Driving adoption of serverless-first, security-hardened, cost-optimized patterns
+- Building strategic initiatives for agentic AI adoption across enterprise customers
+- Establishing architectural playbooks and Centers of Excellence
+- Driving standardization on open frameworks and best practices
 
 ### Enterprise Enablement
-- Creating repeatable patterns so enterprise teams can ship production agents in weeks, not months
-- Standardizing on open frameworks (LangGraph, CrewAI) to avoid vendor lock-in
-- Establishing observability and compliance baselines from day 1
+- Creating repeatable architectural patterns for faster deployment timelines
+- Standardizing on open frameworks to ensure portability and avoid vendor dependency
+- Establishing observability and compliance baselines at project inception
 
 ---
 
@@ -93,26 +92,24 @@ Building and open-sourcing reference architectures across 8 industries to establ
 - ✅ **AWS Certified Solutions Architect – Associate (SAA-C03)** 
 - ⏳ **Claude Certified Architect – Professional (CCA-P)** — In progress (Q3 2026)
 
-### In Progress
+### Planned Certifications
 - 📌 **AWS Generative AI Developer – Professional (AIP-C01)** — Q3 2026
-- 📌 **Certified Kubernetes Administrator (CKA)** — Q1 2027 (production scaling)
-- 📌 **NVIDIA-Certified Professional: Agentic AI (NCP-AAI)** — Q2 2027 (GPU/NIM scale)
-- 📌 **MIT Sloan Executive Education: AI for Business Strategy** — Q4 2027 (strategic leadership)
+- 📌 **Certified Kubernetes Administrator (CKA)** — Q1 2027
+- 📌 **NVIDIA-Certified Professional: Agentic AI (NCP-AAI)** — Q2 2027
+- 📌 **MIT Sloan Executive Education: AI for Business Strategy** — Q4 2027
 
 ---
 
-## Philosophy
+## Architecture Principles
 
-**Enterprise-Grade from Day 1.** No toy code, no tutorials masquerading as production systems.
+**Production-Ready Systems** — Every implementation adheres to enterprise standards:
+- **Security**: OIDC authentication, policy enforcement, secrets management
+- **Cost Control**: Usage tracking, optimization workflows, financial transparency
+- **Observability**: Structured logging, cost metrics, performance analytics from inception
+- **Compliance**: Data protection, audit trails, regulatory alignment (HIPAA, SOC 2)
+- **Operations**: Automated pipelines, operational procedures, incident response protocols
 
-Every project demonstrates:
-- **Security Leadership**: Eliminate long-lived credentials, implement policy-as-code, scan for secrets
-- **Cost Discipline**: Measure, optimize, and report spending per agent; serverless-first reduces operational overhead
-- **Observability**: Structured logging, cost tracking, evaluation metrics built in from inception
-- **Compliance Readiness**: PII redaction, audit trails, HIPAA awareness, SOC 2 alignment
-- **Operational Excellence**: Automated CI/CD, runbooks, incident response playbooks, on-call procedures
-
-**No architectural debt.** Every decision is captured in ADRs. Every infrastructure change is versioned in Terraform. Every process is automated.
+All architectural decisions are documented. All infrastructure is version-controlled. All processes are automated.
 
 ---
 
@@ -121,16 +118,16 @@ Every project demonstrates:
 **Orchestration & AI**  
 LangGraph · Claude SDK · CrewAI · MS Agent Framework · LlamaIndex · Letta
 
-**Cloud & Serverless**  
+**Cloud & Compute**  
 AWS Bedrock + Lambda · Step Functions · ECS Fargate · Azure OpenAI · GCP Vertex AI
 
 **Infrastructure & Security**  
-Terraform · GitHub OIDC · OPA/Rego · pre-commit · gitleaks
+Terraform · GitHub OIDC · OPA/Rego · pre-commit hooks · Secret scanning
 
-**Observability & Cost**  
-CloudWatch · Grafana · OpenSearch · Bedrock billing events
+**Monitoring & Cost**  
+CloudWatch · Grafana · OpenSearch · Billing integration
 
-**Languages & Runtimes**  
+**Development**  
 Python 3.12+ · Terraform 1.9+ · Bash · Docker
 
 ---
@@ -139,11 +136,9 @@ Python 3.12+ · Terraform 1.9+ · Bash · Docker
 
 🔗 **GitHub**: [@cloud-ai-architect](https://github.com/cloud-ai-architect)  
 📧 **Email**: vijaymadhu.india@gmail.com  
-🏢 **Role**: Associate Director – Cloud & Agentic Architecture, Kyndryl  
+🏢 **Organization**: Kyndryl  
 📍 **Location**: India
 
 ---
-
-*"Architecture is not about tools—it's about making decisions that stand the test of time and scale. Every project here is built to last."*
 
 *Last updated: August 2026*
