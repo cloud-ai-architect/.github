@@ -57,6 +57,8 @@ I lead enterprise cloud and AI architecture from discovery and business case thr
 
 ## Education
 
+M.Sc., Data Science, Artificial Intelligence & Machine Learning, BITS Pilani (2026–2028, in progress)
+
 B.E., Mechanical Engineering, Visvesvaraya Technological University (2005-2009)
 
 ## Contact
