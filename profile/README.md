@@ -5,7 +5,7 @@ Bengaluru, India | Hybrid cloud | Agentic AI | FinOps | Solution strategy and pr
 
 I lead enterprise cloud and AI architecture from discovery and business case through solution design and technical delivery. My work combines executive and client engagement with hands-on prototyping in Python, Terraform and data pipelines. I have 14 years of experience across data, cloud, AI and analytics, supporting 14 enterprise clients across four regions.
 
-[Download my résumé (PDF)](./Vijay%20Madhu%20-%20Cloud%20%26%20AI%20Architect%20-%20Kyndryl%20%281%29.pdf)
+[Download my résumé (PDF)](./Vijay%20Madhu%20-%20Cloud%20%26%20AI%20Architect.pdf)
 
 ## Selected outcomes
 
