@@ -1,144 +1,64 @@
-# Technical Leadership in Agentic Systems Architecture
+# Vijay Madhu
 
-**Associate Director – Cloud & Agentic Architecture at Kyndryl**
+**Associate Director | Cloud & AI Architect at Kyndryl**  
+Bengaluru, India | Hybrid cloud | Agentic AI | FinOps | Solution strategy and pre-sales
 
-Leading enterprise-scale multi-agent AI initiatives. Setting architectural standards for production-grade agentic systems across AWS, Azure, and GCP.
+I lead enterprise cloud and AI architecture from discovery and business case through solution design and technical delivery. My work combines executive and client engagement with hands-on prototyping in Python, Terraform and data pipelines. I have 14 years of experience across data, cloud, AI and analytics, supporting 14 enterprise clients across four regions.
 
----
+[Download my résumé (PDF)](./Vijay%20Madhu%20-%20Cloud%20%26%20AI%20Architect%20-%20Kyndryl%20%281%29.pdf)
 
-## Leadership Focus
+## Selected outcomes
 
-### Strategic Architecture
-- **Agentic Systems Governance**: Designing enterprise governance frameworks for multi-agent deployments (compliance, observability, cost optimization)
-- **Cloud-Native Strategy**: Multi-cloud architecture patterns; serverless-first design for operational efficiency and cost discipline
-- **Security Architecture**: Enterprise-grade standards (OIDC, policy-as-code, PII handling, least-privilege); eliminating long-lived credentials
+- **AI for IT Operations:** Delivered a client-hosted, human-in-the-loop incident assistant using Azure AI Foundry, AI Search RAG, Cosmos DB, Container Apps, Microsoft Teams and Entra ID. The solution runs in a client's private Azure environment, integrates with Dynatrace and ITSM, and passed CISO and architecture-board review.
+- **Hybrid Cloud Cost Observability (HCCO):** Built a FOCUS-based FinOps platform spanning AWS, Azure, GCP and on-premises VMware. It reduced cost reporting from hours to minutes and supports hosted or client-hosted deployment.
+- **AI Assistant for FinOps:** Extended HCCO with a Bedrock and Claude solution combining RAG, SQL-RAG, forecasting, anomaly detection and rightsizing; reduced manual cost analysis by up to 80%.
+- **Agentic certificate lifecycle:** Architected and built an eight-agent solution on Azure Durable Functions and Semantic Kernel, integrating Event Grid, Cosmos DB, OPA, ServiceNow, Key Vault and AKS. It automates eligible renewals in under two minutes with an immutable audit trail.
+- **Client impact:** Identified GBP 500,000 per year in Azure NetApp Files savings for a global bottler; helped earn a 10/10 NPS reference from a Canadian public insurer; and supported the first India FinOps client.
+- **FinOps assessment automation:** Built a VS Code Copilot agent that normalizes AWS, Azure and GCP cost data to FOCUS 1.2, identifies anomalies and savings, and generates executive reports.
 
-### Reference Implementations
-Building and open-sourcing reference architectures across 8 industries to establish industry best practices:
-- **Healthcare** (LangGraph): HIPAA-aware clinical workflows with multi-agent human-in-the-loop processes
-- **Financial Services** (MS Agent Framework): Compliance-first equity research with isolated code execution
-- **DevTools** (Claude Agent SDK): Autonomous software engineering teams with self-reflection and multi-step planning
-- **Manufacturing/Logistics** (CrewAI): Real-time supply chain orchestration with edge-based inference
-- **Legal/Compliance** (LlamaIndex): Contract analysis at enterprise scale with structured reasoning
-- **EdTech** (Letta): Long-term student modeling and personalized instruction planning
-- **Retail** (CrewAI): Omnichannel customer experience with integrated catalog management
-- **Energy** (LangGraph): Grid optimization and demand response coordination
+## Architecture and leadership
 
----
+- Multi-cloud and hybrid-cloud architecture across AWS, Azure, GCP and IBM Cloud
+- Agentic AI, RAG and SQL-RAG, multi-agent orchestration, prompt design, evaluation and responsible AI
+- Enterprise governance, architecture decision records, security and policy-as-code, private networking and identity
+- FinOps, cost observability, forecasting, anomaly detection, rightsizing, showback and chargeback
+- Pre-sales leadership: discovery, workshops, RFP responses, solution costing, statements of work, delivery models and CXO demonstrations
+- Co-authored an Agentic Era IT Operations target operating model and commercial model; coached architects on reference architectures and quality reviews
+- Solution evangelist for Kyndryl FinOps and cost observability at FinOps X 2025
 
-## Technical Achievements
+## Experience
 
-### Enterprise-Grade Standards
-✅ **Architectural Excellence** — Every project includes:
-- Formal Architecture Decision Records (ADRs) for strategic design choices
-- Automated compliance scanning (gitleaks, SAST, DAST)
-- Policy-as-code enforcement (OPA/Rego) for data handling, retention, and audit compliance
-- Infrastructure-as-Code (Terraform ≥1.9) with multi-environment consistency
+| Period | Role | Organization |
+| --- | --- | --- |
+| 2021-present | Associate Director, Cloud & AI Architecture | Kyndryl Solutions Private Limited |
+| 2019-2021 | Cloud Service Manager & Project Manager | IBM |
+| 2017-2019 | Business & Data Analyst | IBM |
+| 2015-2017 | Process Lead, Analytics | Capgemini |
+| 2012-2015 | Data Analyst & Retail Planner | Soch Apparels |
 
-✅ **Cost Optimization** — Serverless-first methodology:
-- Optimized token usage and managed service integration (Lambda, Step Functions, DynamoDB)
-- Per-invocation cost tracking and analysis ($1–6 per test cycle)
-- Automated optimization workflows with billing integration
+## Platforms and tools
 
-✅ **Observability Excellence** — Enterprise observability architecture:
-- Structured logging with CloudWatch/OpenSearch
-- Real-time cost and usage tracking
-- Agentic loop evaluation and self-correction metrics
-- Performance simulation and load testing frameworks
+**Cloud:** AWS (Bedrock, Lambda, Athena, Glue, S3, Step Functions), Azure (AI Foundry, AI Search, Durable Functions, AKS, Cosmos DB), GCP (Vertex AI), IBM Cloud, VMware  
+**AI and integration:** Claude, Semantic Kernel, LangGraph, MCP, RAG, SQL, Python, Microsoft Teams, SharePoint, ServiceNow, Dynatrace  
+**Architecture and operations:** Terraform, CloudFormation/CDK, Docker, GitHub Actions, Argo CD, OPA/Rego, IAM/RBAC, Grafana, CloudWatch, OpenSearch  
+**FinOps and data:** FOCUS 1.0/1.2, ETL/ELT, ARIMA forecasting, anomaly detection, unit economics, showback and chargeback
 
-✅ **Security Leadership** — Production-grade security:
-- OIDC-based authentication (GitHub OIDC → AWS STS)
-- Pre-commit enforcement (gitleaks, dependency scanning, linting)
-- CODEOWNERS-driven access control
-- Automated security updates and vulnerability management
+## Credentials and learning
 
----
+- Claude Certified Architect - Professional
+- AWS Certified Solutions Architect - Associate
+- FinOps Certified Practitioner (FOCP)
+- AWS Certified Cloud Practitioner
+- Microsoft Azure Fundamentals (AZ-900)
+- Certified SAFe 5 Agilist
+- ITIL 4 Foundation
+- IBM Enterprise Design Thinking Practitioner
+- AI Agents course, Hugging Face
 
-## Portfolio Coverage
+## Education
 
-| Dimension | Coverage |
-|-----------|----------|
-| **Industries** | Healthcare, Finance, DevTools, Logistics, Legal, EdTech, Retail, Energy |
-| **Frameworks** | LangGraph, Claude SDK, CrewAI, MS Agent Framework, LlamaIndex, Letta |
-| **Agentic Concepts** | Multi-agent orchestration, RAG, agentic RAG, HITL, long-horizon planning, long-term memory, streaming, code execution, autonomous browsing, voice, plan-and-execute |
-| **LLM Coverage** | Frontier (Claude Sonnet/Opus), open-source mid-tier (Llama 4, Mistral), specialized models (Qwen Coder, domain embeddings) |
-| **Deployment Models** | Serverless (Lambda), containerized (ECS Fargate), edge (IoT Core), managed platforms (Bedrock AgentCore) |
-| **Cloud Platforms** | AWS (Bedrock, Lambda, Step Functions), Azure (OpenAI, Functions), GCP (Vertex AI) |
+B.E., Mechanical Engineering, Visvesvaraya Technological University (2005-2009)
 
----
+## Contact
 
-## Strategic Initiatives
-
-### Thought Leadership
-- Publishing architecture patterns and decision frameworks as reference implementations
-- Contributing to industry standards for agentic AI governance
-- Mentoring engineering teams on enterprise-scale agent design and deployment
-
-### Industry Positioning
-- Building strategic initiatives for agentic AI adoption across enterprise customers
-- Establishing architectural playbooks and Centers of Excellence
-- Driving standardization on open frameworks and best practices
-
-### Enterprise Enablement
-- Creating repeatable architectural patterns for faster deployment timelines
-- Standardizing on open frameworks to ensure portability and avoid vendor dependency
-- Establishing observability and compliance baselines at project inception
-
----
-
-## Credentials & Continuous Learning
-
-### Certified
-- ✅ **AWS Certified Solutions Architect – Associate (SAA-C03)** 
-- ⏳ **Claude Certified Architect – Professional (CCA-P)** — In progress (Q3 2026)
-
-### Planned Certifications
-- 📌 **AWS Generative AI Developer – Professional (AIP-C01)** — Q3 2026
-- 📌 **Certified Kubernetes Administrator (CKA)** — Q1 2027
-- 📌 **NVIDIA-Certified Professional: Agentic AI (NCP-AAI)** — Q2 2027
-- 📌 **MIT Sloan Executive Education: AI for Business Strategy** — Q4 2027
-
----
-
-## Architecture Principles
-
-**Production-Ready Systems** — Every implementation adheres to enterprise standards:
-- **Security**: OIDC authentication, policy enforcement, secrets management
-- **Cost Control**: Usage tracking, optimization workflows, financial transparency
-- **Observability**: Structured logging, cost metrics, performance analytics from inception
-- **Compliance**: Data protection, audit trails, regulatory alignment (HIPAA, SOC 2)
-- **Operations**: Automated pipelines, operational procedures, incident response protocols
-
-All architectural decisions are documented. All infrastructure is version-controlled. All processes are automated.
-
----
-
-## Technical Stack
-
-**Orchestration & AI**  
-LangGraph · Claude SDK · CrewAI · MS Agent Framework · LlamaIndex · Letta
-
-**Cloud & Compute**  
-AWS Bedrock + Lambda · Step Functions · ECS Fargate · Azure OpenAI · GCP Vertex AI
-
-**Infrastructure & Security**  
-Terraform · GitHub OIDC · OPA/Rego · pre-commit hooks · Secret scanning
-
-**Monitoring & Cost**  
-CloudWatch · Grafana · OpenSearch · Billing integration
-
-**Development**  
-Python 3.12+ · Terraform 1.9+ · Bash · Docker
-
----
-
-## Connect
-
-🔗 **GitHub**: [@cloud-ai-architect](https://github.com/cloud-ai-architect)  
-📧 **Email**: vijaymadhu.india@gmail.com  
-🏢 **Organization**: Kyndryl  
-📍 **Location**: India
-
----
-
-*Last updated: August 2026*
+[LinkedIn](https://www.linkedin.com/in/vijaymadhu/) | [Email](mailto:vijaymadhu.india@gmail.com) | [GitHub organization](https://github.com/cloud-ai-architect)
